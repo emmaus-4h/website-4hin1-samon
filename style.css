@@ -23,8 +23,8 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color: #ada4a4;    /* achtergrondkleur lichtgrijs */
+  color: #000000;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -55,9 +55,13 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: skyblue;
+  color: #85a441;
+ 
 } 
-
+menuitem
+.item-tekst{
+font-size: 18px;
+}
 p {
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
@@ -78,7 +82,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
 
 .smalltext {
   text-align: center;
-  font-size: 0.7em;
+  font-size: 0,6em;
 }
 
 /************************* NAVIGATIEBALK *************************/
