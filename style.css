@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/*  * {border: 1px dotted black;}   */
+  * {border: 1px dotted black;}   
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -91,30 +91,31 @@ a:hover {                         /* <a> als je er met de muis op staat */
 
 nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
-  margin: auto;
+  margin: 0;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #86b18e;
   overflow: hidden;
 }
 
 nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
   float: left;
 }
-
+,:active{
+padding: 10px 16px} 
 nav li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: black;
+  
+  padding: 10px 16px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #aaaaaa;
+  background-color:#464d6d;
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: #7ace69;
 }
 
 
@@ -137,6 +138,3 @@ nav li a.active {
 
 /************************* SUBPAGINA *************************/
 
-/* Indeling en opmaak voor subpagina */
-
-/* verzin deze zelf... */
