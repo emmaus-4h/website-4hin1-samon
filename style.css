@@ -23,7 +23,7 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #ada4a4;    /* achtergrondkleur lichtgrijs */
+  background-color: #cefdf1;    /* achtergrondkleur lichtgrijs */
   color: #000000;               /* tekstkleur donkergrijs */
 }  
 
@@ -55,7 +55,7 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: #85a441;
+  color: #000000;
  
 } 
 menuitem
@@ -93,7 +93,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #86b18e;
+  background-color: #00b3ff;
   overflow: hidden;
 }
 
@@ -111,11 +111,11 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color:#464d6d;
+  background-color:#5d76ea;
 }
 
 nav li a.active {
-  background-color: #7ace69;
+  background-color: #4dc3ff;
 }
 
 
@@ -138,3 +138,9 @@ nav li a.active {
 
 /************************* SUBPAGINA *************************/
 
+.main {float:;}
+
+.roblox {
+width:380px;}
+.tekst {float: right;}
+.robux {width:200px;}
