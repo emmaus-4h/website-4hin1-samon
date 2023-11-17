@@ -23,8 +23,9 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #cefdf1;    /* achtergrondkleur lichtgrijs */
-  color: #000000;               /* tekstkleur donkergrijs */
+  background-color: #142448;    /* achtergrondkleur lichtgrijs */
+  color: #706a9a;   
+  
 }  
 
 div {                             /* geldt voor div */
@@ -85,11 +86,54 @@ a:hover {                         /* <a> als je er met de muis op staat */
   font-size: 0,6em;
 }
 
-/************************* NAVIGATIEBALK *************************/
+/************************* NAVIGATIEBALK *************************/ 
 
 /* navigatiebalk voor alle pagina's */
 
-nav ul {                        /* <ul> die child is van <nav> */
+
+
+
+
+
+.item-plaatje {
+  float: left;
+  width: 250px;
+  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+}
+
+.item-tekst {
+  float: right;
+  width: 450px;
+}
+
+
+
+.main {float:;}
+/*********************WAT IS ROBLOX h2*********************/
+.roblox {
+width:350px;}
+.tekst {width:280px;}
+.tekst {float:right;}
+.belangrijk {color:#a099ff}
+h2 {color:#a099ff;}
+.uitleg {width:350px;}
+
+
+
+
+.robux {width:200px;}
+
+
+
+
+
+
+
+
+
+
+/************************menu************************/
+  nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -97,8 +141,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   overflow: hidden;
 }
 
-nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
-  float: left;
+
 }
 ,:active{
 padding: 10px 16px} 
@@ -117,30 +160,4 @@ nav li a:hover {
 nav li a.active {
   background-color: #4dc3ff;
 }
-
-
-/************************* HOOFDPAGINA *************************/
-
-/* Indeling en opmaak voor hoofdpagina */
-
-/* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
-
-.item-plaatje {
-  float: left;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-}
-
-.item-tekst {
-  float: right;
-  width: 450px;
-}
-
-/************************* SUBPAGINA *************************/
-
-.main {float:;}
-
-.roblox {
-width:380px;}
-.tekst {float: right;}
-.robux {width:200px;}
+nav {text-align:left;}
