@@ -40,7 +40,7 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 800px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -161,3 +161,6 @@ nav li a.active {
   background-color: #4dc3ff;
 }
 nav {text-align:left;}
+.content nav {float:left;}
+.content main {float:right;}
+
