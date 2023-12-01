@@ -133,7 +133,7 @@ h2 {color:#a099ff;}
 
 
 /************************menu************************/
-  nav ul {                        /* <ul> die child is van <nav> */
+  nav ul {                        
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -142,8 +142,8 @@ h2 {color:#a099ff;}
 }
 
 
-}
-,:active{
+
+.active{
 padding: 10px 16px} 
 nav li a {
   display: block;
@@ -157,7 +157,7 @@ nav li a:hover {
   background-color:#5d76ea;
 }
 
-nav li a.active {
+.active {
   background-color: #4dc3ff;
 }
 nav {text-align:left;}
