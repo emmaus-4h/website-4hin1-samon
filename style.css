@@ -5,7 +5,9 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-  * {border: 1px dotted black;}   
+  * {border: 1px dotted black;}
+
+
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -103,7 +105,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
 
 .item-tekst {
   float: right;
-  width: 450px;
+  width: 700px;
 }
 
 
@@ -111,12 +113,12 @@ a:hover {                         /* <a> als je er met de muis op staat */
 .main {float:;}
 /*********************WAT IS ROBLOX h2*********************/
 .roblox {
-width:350px;}
-.tekst {width:280px;}
+width:500px;}
+
 .tekst {float:right;}
 .belangrijk {color:#a099ff}
 h2 {color:#a099ff;}
-.uitleg {width:350px;}
+
 
 
 
@@ -164,3 +166,19 @@ nav {text-align:left;}
 .content nav {float:left;}
 .content main {float:right;}
 
+
+
+.john-wick {width:200px;}
+
+
+
+
+
+/********************************voorpagina********************************/
+.fortnite-new {width:250px;
+              float:left;}
+.uitleg-1 {width:350px;}
+.uitleg-2 {width:350px;}
+p {width:700px;}
+.top5 {font-size:30px;
+      color:#300d0d;}
