@@ -44,7 +44,7 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
-  width: 800px;                   /* vaste breedte van 700 pixels */
+  width: 80%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -105,17 +105,14 @@ a:hover {                         /* <a> als je er met de muis op staat */
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
-.item-tekst {
-  float: right;
-  width: 900px;
-}
 
 
 
-.main {width:700px;}
+
+
+
 /*********************WAT IS ROBLOX h2*********************/
-.roblox {
-width:700px;}
+
 
 .tekst {float:right;}
 .belangrijk {color:#000000}
@@ -125,7 +122,7 @@ h2 {color:#000000;}
 
 
 
-.robux {width:200px;}
+
 
 
 
@@ -170,7 +167,8 @@ nav {text-align:left;}
 
 
 
-.john-wick {width:200px;}
+.john-wick {width:200px;
+           float: left;}
 
 
 
@@ -179,10 +177,16 @@ nav {text-align:left;}
 /********************************voorpagina********************************/
 .fortnite-new {width:250px;
               float:left;}
-.uitleg-1 {width:350px;}
+.uitleg-1 {width:350px;
+          float:left;}
 .uitleg-2 {width:350px;}
 p {width:700px;}
 .top5 {font-size:30px;
       color:#000000;}
 
 .event {color:#853e98}
+.maps {width:600px;}
+.links {float: left;
+       }
+.rechts {float:right;
+        }
